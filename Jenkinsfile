@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Execute shell script') {
             steps {
-                    echo 'Building...'
+                    echo 'This is from my Jenkins file!'
                     sh './hello.sh'
                 }
             }
